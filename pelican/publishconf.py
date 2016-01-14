@@ -7,8 +7,8 @@ from __future__ import unicode_literals
 
 import os
 
-AUTHOR = 'KMOL'
-SITENAME = '2015FALL KMOL 課程'
+AUTHOR = '40323123'
+SITENAME = '2015FALL 40323123 CADPA 作業'
 SITEURL = ''
 
 PATH = 'content'
@@ -24,15 +24,14 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('2015課程網頁', 'http://wordpress-2015course.rhcloud.com/'),
-         ('Python', 'http://python.org/'),
-         ('You can modify those links in your config file', '#'),)
+# 部落格
+LINKS = (('我的github', 'http://smpss91341.github.io/2015cadp/'),
+         ('作業主頁', 'http://python.org/'),('組別G7', 'http://2015fallhw.github.io/2015fallcadpa/category/g7.html'))
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
-
+# 社交場合
+SOCIAL = (('FB', 'www.facebook.com.tw'),
+          ('github', 'http://github.com/smpss91341'),)
+          
 DEFAULT_PAGINATION = 10
 
 SITEURL = 'http://coursemdetw.github.io/reveal'
